@@ -2,7 +2,7 @@ The main goal of this project is to predict the daily trend of the NASDAQ Compos
 
 It specifically aims to forecast whether the opening price of the NASDAQ on the next trading day will be higher than the opening price of the current day. This is set up as a classification problem where the target variable is 1 for an upward movement and 0 for no movement.
 
-The highlight are:
+**The highlight are:**
 
 **Historical Data Analysis:** This project uses historical NASDAQ data obtained from the `yfinance` library, focusing on data from 2000 onward.
 **Feature Engineering:** It creates custom technical indicators based on rolling averages and historical trends to identify patterns in the stock market data.
